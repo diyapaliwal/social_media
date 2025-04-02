@@ -1,6 +1,6 @@
 ---
 - name: Launch Docker Container
-  hosts: docker
+  hosts: prod
   vars:
     docker_image: "diyapaliwal/django"
     docker_tag: "latest"
